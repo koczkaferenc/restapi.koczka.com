@@ -1,0 +1,30 @@
+Ismétlés: web kérések, POST és GET
+Konténer indítása, a http://localhost:5101-es porton a lehetőségek lekérése
+A http://localhost:5101/hello kipróbálása
+
+A Postman bemutatása
+- A http://localhost:5101 
+- http://localhost:5101/hello
+- http://localhost:5101/hello?name=Anna
+
+POST: body/raw/json:
+- http://localhost:5101/greet
+- Post: { }
+- Post: { "name":"Anna" }
+
+Python kód letöltése és tesztelése (teszt.py)
+
+Feladat:
+- http://localhost:5101/solve?a=1&b=1&c=1
+
+Használd a Postman-t post és get metódussal is a tesztek elvégzésére!
+
+1,3,-2
+http://127.0.0.1:5101/solve?a=1&b=-3&c=2
+
+1,2,1
+http://127.0.0.1:5101/solve?a=1&b=2&c=1
+
+1,2,5
+http://127.0.0.1:5101/solve?a=1&b=2&c=5
+
