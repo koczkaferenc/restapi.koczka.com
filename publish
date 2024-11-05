@@ -1,0 +1,7 @@
+#!/bin/bash
+APP="rest-api-demo"
+VERSION=1
+set -x
+docker build -t ${APP}:${VERSION} .
+docker tag ${APP}:${VERSION} koczkaferenc/${APP}:${VERSION}
+docker push koczkaferenc/${APP}:${VERSION}
